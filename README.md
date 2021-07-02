@@ -38,4 +38,4 @@ Forward-viewing endoscopic optical coherence tomography (OCT) provides 3D imagin
 - enface_from_volume        - Pulls a single en face image from a volume.
 
 ## Datasets:
-Datasets are not available in this repo.
+Datasets are not available in this repo. Example datasets will be available in a figshare download shortly.
