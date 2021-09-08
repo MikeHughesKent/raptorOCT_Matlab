@@ -2,13 +2,13 @@
 
 Code used for the article:
 
-Marques et al., Endoscopic en-face optical coherence tomography and fluorescence imaging using a double-clad optical fiber and correlation-based probe tracking.
+Marques et al., Endoscopic en-face optical coherence tomography and fluorescence imaging using correlation-based probe tracking.
 
 Please refer to the paper for detailed descriptions of the code and cite the paper when re-using significant portions of the code.
 
 
 ## Paper Abstract:
-Forward-viewing endoscopic optical coherence tomography (OCT) provides 3D imaging in vivo, and can be combined with widefield fluorescence imaging by use of a double-clad fiber. However, it is technically challenging to build a high-performance miniaturized 2D scanning system with a large field-of-view. In this paper we demonstrate how a 1D scanning probe, which produces OCT B-scans and 1D fluorescence lines, can be manually scanned with an endoscope in the direction out-of-plane of the B-scans to generate OCT volumes and 2D fluorescence images. The OCT volumes are assembled from the B-scans using a combination of normalised cross correlation and speckle decorrelation measurements to detect in-plane and out-of-plane motion respectively. En face OCT slices and fluorescence images, corrected for probe motion in 3D, can be displayed in real-time during the scan. The algorithm can handle out-of-plane motion of up to 4~mm/s for a B-scan frame rate of 250~Hz and an OCT lateral resolution of approximately 20 micrometers.
+Forward-viewing endoscopic optical coherence tomography (OCT) provides 3D imaging in vivo, and can be combined with widefield fluorescence imaging by use of a double-clad fiber. However, it is technically challenging to build a high-performance miniaturized 2D scanning system with a large  field-of-view. In this paper we demonstrate how a 1D scanning probe, which produces cross-sectional OCT images (B-scans) and 1D fluorescence T-scans, can be transformed into a 2D scanning probe by manual scanning along the second axis. OCT volumes are assembled from the B-scans using speckle decorrelation measurements to estimate the out-of-plane motion along the manual scan direction. Motion within the plane of the B-scans is corrected using image registration by normalized cross correlation. \textit{En-face} OCT slices and fluorescence images, corrected for probe motion in 3D, can be displayed in real-time during the scan. For a B-scan frame rate of 250 Hz, and an OCT lateral resolution of approximately 20 micrometers, the approach can handle out-of-plane motion at speeds of up to 4 mm/s. 
 
 ## Examples:
 - example_correlation       - Produces a correlation with out-of-plane distance curve, Fig. 3(a) of article.
